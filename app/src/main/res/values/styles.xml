@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="imgRadius">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Card" parent="">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorSurface">#abcdef</item>
+        <item name="colorOnSurface">#1b2</item>
+    </style>
+
+    <style name="NavBarStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="fontFamily">@font/roboto_mono_bold</item>
+    </style>
+</resources>
